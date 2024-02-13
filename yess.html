@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html{
+        background: linear-gradient(90deg, rgba(131,58,180,1) 2%, rgba(253,29,218,1) 94%, rgba(252,176,69,1) 100%);
+    }
+    h1{
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+      
+        font-size: 62.5%;
+    }
+    img{
+        height: 500px;
+        width: 500px;
+        border-radius: 25px;
+    }
+    button{
+        margin-top: 1rem;
+       width: 10rem;
+       height: 2rem;
+       cursor: pointer;
+       text-align: center;
+       outline: none;
+       padding: 30px 5px;
+       border: transparent;
+       border-radius: 10px 10px 10px 10px;
+    }
+    .heading{
+        transition: ease-in-out 3s;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+        font-size: 5rem;
+        color: azure;
+    }
+    .goback{
+     background-color: rgb(159, 154, 130);
+     font-size: 1rem;
+     font-weight: 500;
+    }
+    button:hover{
+        color: aquamarine;
+        background-color: rgb(235, 4, 4);
+        font-style: bold;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+</style>
+<body>
+    <h1 class="heading"> She said yes!!!</h1>
+    <img src="happy-dance.gif" alt="dance">
+    <button class="goback" onclick="newpage()">CHAL OYO</button>
+    <script type="text/javascript">
+   function newpage(){
+    window.location.href="https://www.oyorooms.com/"
+   }
+    </script>
+</body>
+</html>
